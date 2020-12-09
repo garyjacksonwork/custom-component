@@ -9,6 +9,5 @@ import { OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   ngOnInit() : void {
     window.parent.postMessage({type:'initialized'}, '*')
-    window.parent.postMessage({type:'sizeChange', data: {height: 300}}, '*')
   }
 }
