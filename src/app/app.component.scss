@@ -25,7 +25,7 @@
         .row {
             float: left;
             width: 100%;
-            margin: 10px 0;
+            margin: 8px 0;
             label {
                 float: left;
                 width: 180px;
@@ -35,22 +35,25 @@
                 font-weight: 700;
                 text-align: left;
                 padding-top: 10px;
+                font-family: 'Lato', sans-serif;
             }
             input,
             textarea {
-               //width: calc(100% - 220px);
+                width: calc(100% - 236px);
                 float: left;
                 display: block;
-                padding: 16px;
+                padding: 12px;
+                font-family: 'Lato', sans-serif;
                 color: gray;
             }
             input {
                 &.submit {
                     background: #061f5c;
                     color: #fff;
-                    padding: 10px 30px;
+                    padding: 10px 40px;
                     margin-left: 200px;
                     cursor: pointer;
+                    width: auto;
                 }
             }
             textarea {
