@@ -5,13 +5,14 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent  {
   
+  /*
   ngOnInit() : void {
     window.parent.postMessage({type:'initialized'}, "*")
 
     window.parent.postMessage({type:'sizeChange', data: {height: 400}}, "*")
   }
-
+*/
 
 }
